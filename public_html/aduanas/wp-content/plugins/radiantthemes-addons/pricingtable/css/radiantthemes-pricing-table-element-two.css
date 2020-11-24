@@ -1,0 +1,205 @@
+﻿/* rt-pricing-table element-two */
+
+.rt-pricing-table.element-two{
+}
+
+.rt-pricing-table.element-two > .holder{
+	padding:0px 30px 36px 30px;
+	background-color:#fff;
+	border:1px #e8e8e8 solid;
+	text-align:left;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two.spotlight > .holder,
+.rt-pricing-table.element-two:hover > .holder{
+	position:relative;
+	border-color:#fff;
+	box-shadow:0px 0px 30px rgba(5,6,6,0.1);
+}
+
+.rt-pricing-table.element-two > .holder > .pricing{
+	padding:37px 31px 25px 31px;
+	background-color:#f6f6f6;
+	margin-top:-1px;
+	margin-left:-31px;
+	margin-right:-31px;
+	margin-bottom:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two > .holder:hover > .pricing{
+}
+
+.rt-pricing-table.element-two > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .price{
+	margin-bottom:25px;
+	font-weight:300;
+	font-size:90px;
+	color:#2b2944;
+	line-height:0.75;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two > .holder:hover > .pricing .price{
+	color:#fff;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .price sup{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:11px;
+	margin-right:8px;
+	font-weight:400;
+	font-size:24px;
+	line-height:1;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .price sub{
+	display:inline-block;
+	vertical-align:bottom;
+	margin-bottom:5px;
+	margin-left:-3px;
+	font-weight:400;
+	font-size:20px;
+	line-height:1;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .title{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:20px;
+	line-height:30px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two > .holder:hover > .pricing .title{
+	color:#fff !important;
+}
+
+.rt-pricing-table.element-two > .holder > .pricing .subtitle{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:14px;
+	line-height:23px;
+}
+
+.rt-pricing-table.element-two > .holder > .heading{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-two > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .heading .tagline{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:13px;
+	color:#757575;
+	line-height:23px;
+}
+
+.rt-pricing-table.element-two > .holder > .list{
+	margin-bottom:35px;
+}
+
+.rt-pricing-table.element-two > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .list ul{
+}
+
+.rt-pricing-table.element-two > .holder > .list ul li{
+	position:relative;
+	margin-bottom:15px;
+	padding-bottom:16px;
+	padding-left:25px;
+	border-bottom:1px #f0f0f0 solid;
+}
+
+.rt-pricing-table.element-two > .holder > .list ul li:last-child,
+.rt-pricing-table.element-two > .holder > .list ul li:only-child{
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-pricing-table.element-two > .holder > .list ul li:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+	content:"\f058";
+	font-family:"FontAwesome";
+	font-size:13px;
+}
+
+.rt-pricing-table.element-two > .holder > .more{
+}
+
+.rt-pricing-table.element-two > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-two > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:13px 37px 13px 37px;
+	background-color:#2b2944;
+	border:none;
+	border-radius:35px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:12px;
+	color:#fff;
+	line-height:20px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-two.spotlight > .holder > .more .btn,
+.rt-pricing-table.element-two:hover > .holder > .more .btn{
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-pricing-table.element-two > .holder > .pricing .price{
+		font-size:60px;
+	}
+
+	.rt-pricing-table.element-two > .holder > .pricing .price sub {
+	    display:block;
+	    margin-top:15px;
+	    margin-left:0;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

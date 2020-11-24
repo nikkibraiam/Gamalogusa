@@ -1,0 +1,129 @@
+/* team element-two */
+
+.team.element-two{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.team.element-two .team-item{
+	padding-top:25px;
+	padding-right:15px;
+	padding-bottom:25px;
+	padding-left:15px;
+	text-align:center;
+}
+
+.team.element-two:not(.owl-carousel) .team-item{
+	float:left;
+	margin-bottom:30px;
+}
+
+.team.element-two .team-item > .holder{
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.team.element-two .team-item:hover > .holder{
+	box-shadow:0px 0px 25px rgba(0,0,0,0.12);
+}
+
+.team.element-two .team-item > .holder > .pic{
+	position:relative;
+}
+
+.team.element-two .team-item > .holder > .pic > img{
+	width:100%;
+}
+
+.team.element-two .team-item > .holder > .pic > .pic-main{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center top no-repeat;
+	background-size:cover;
+}
+
+.team.element-two .team-item > .holder > .data{
+	padding:18px 20px 22px 20px;
+	background-color:#fff;
+}
+
+.team.element-two .team-item > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.team.element-two .team-item > .holder > .data .title{
+	margin-bottom:4px;
+	font-weight:500;
+	font-size:18px;
+	color:#373d41;
+	line-height:26px;
+}
+
+.team.element-two .team-item > .holder > .data .title a{
+	color:inherit;
+}
+
+.team.element-two .team-item > .holder > .data .designation{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:15px;
+	color:#373d41;
+	line-height:26px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	/* team element-two */
+
+	.team.element-two:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* team element-two */
+
+	.team.element-two:not(.owl-carousel) .team-item{
+		width:50% !important;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* team element-two */
+
+	.team.element-two:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* team element-two */
+
+	.team.element-two:not(.owl-carousel) .team-item{
+		width:100% !important;
+	}
+
+}

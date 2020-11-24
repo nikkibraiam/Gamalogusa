@@ -1,0 +1,102 @@
+/* rt-fancy-text-box element-six */
+
+.rt-fancy-text-box.element-six{
+	text-align:center;
+}
+
+.rt-fancy-text-box.element-six > .holder{
+	text-align:inherit;
+}
+
+.rt-fancy-text-box.element-six > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+	margin-bottom:20px;
+	border-radius:4px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .pic img{
+}
+
+.rt-fancy-text-box.element-six > .holder > .pic > .pic-overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background-color:rgba(0,0,0,0.4);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-fancy-text-box.element-six > .holder:hover > .pic > .pic-overlay{
+	opacity:1;
+	visibility:visible;
+}
+
+.rt-fancy-text-box.element-six > .holder > .icon{
+	margin-bottom:25px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .icon i{
+	font-size:58px;
+	color:#0c1235;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-six > .holder > .data{
+}
+
+.rt-fancy-text-box.element-six > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-six > .holder > .data .title{
+	margin-bottom:10px;
+	font-weight:600;
+	font-size:20px;
+	color:#111;
+	line-height:28px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .data .title a{
+	color:inherit;
+}
+
+.rt-fancy-text-box.element-six > .holder > .data .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:17px;
+	color:#111;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-six > .holder > .data .content{
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

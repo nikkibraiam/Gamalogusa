@@ -1,0 +1,107 @@
+/* rt-fancy-text-box element-nine */
+
+.rt-fancy-text-box.element-nine{
+	text-align:center;
+}
+
+.rt-fancy-text-box.element-nine > .holder{
+	padding:28px 28px 30px 28px;
+	background-color:#fff;
+	box-shadow:0px 0px 35px rgba(0,0,0,0.12);
+	text-align:inherit;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .pic{
+	margin-bottom:23px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .pic > .pic-image,
+.rt-fancy-text-box.element-nine > .holder > .pic > .pic-icon{
+	display:inline-block;
+	vertical-align:top;
+	width:125px;
+	height:125px;
+	border:7px #f1f1f1 solid;
+	border-radius:50%;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-fancy-text-box.element-nine > .holder:hover > .pic > .pic-image,
+.rt-fancy-text-box.element-nine > .holder:hover > .pic > .pic-icon{
+}
+
+.rt-fancy-text-box.element-nine > .holder > .pic > .pic-image img{
+	margin-top:50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+
+.rt-fancy-text-box.element-nine > .holder > .pic > .pic-image i{
+	font-size:50px;
+	color:#252525;
+	line-height:111px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .data{
+}
+
+.rt-fancy-text-box.element-nine > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .data .title{
+	margin-bottom:8px;
+	font-weight:500;
+	font-size:18px;
+	color:#131320;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .data .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:15px;
+	color:#131320;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-nine > .holder > .data .content{
+	margin-bottom:10px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-fancy-text-box.element-nine > .holder > .data{
+		margin-right:30px;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	.rt-fancy-text-box.element-nine > .holder > .data{
+		margin-right:30px;
+	}
+
+}

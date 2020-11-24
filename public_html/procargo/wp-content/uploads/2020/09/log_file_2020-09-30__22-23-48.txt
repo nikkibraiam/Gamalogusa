@@ -1,0 +1,411 @@
+
+---Downloaded files---
+The import files for: Demo One were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://gamalogusa.com/procargo
+Data file = /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/content.xml
+Widget file = /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/widgets.wie
+Customizer file = not defined!
+Redux files:
+finacia_theme_option -> /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/redux.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Widgets in Menu : 
+
+Menú de Navegación - Masonry Style - Imported
+Menú de Navegación - Overlay Style - Imported
+
+Sidebar : 
+
+Buscar - No Title - Widget already exists
+Categorías - Categories - Imported
+Entradas recientes - Recent Posts - Imported
+Archivos - Archives - Imported
+Nube de etiquetas - Tags - Imported
+
+Product | Sidebar : 
+
+Filter Products by Price - Filter by price - Imported
+Products - Featured Products - Imported
+Product Categories - Product categories - Imported
+Products - On-sale Products - Imported
+
+Footer | #1 : 
+
+Imagen - No Title - Imported
+RadiantThemes Social - No Title - Imported
+
+Footer | #2 : 
+
+Menú de Navegación - Company - Imported
+
+Footer | #3 : 
+
+Menú de Navegación -   - Imported
+
+Footer | #4 : 
+
+RadiantThemes Contact Box - No Title - Imported
+HTML personalizado - Subscribe Now - Imported
+
+Hamburger | Sidebar : 
+
+Imagen - No Title - Imported
+Texto - No Title - Imported
+RadiantThemes Recent Posts With Thumbnail Widget - No Title - Imported
+RadiantThemes Contact Box - No Title - Imported
+RadiantThemes Social - No Title - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: finacia_theme_option finished successfully!
+
+---pt-ocdi/after_import---
+

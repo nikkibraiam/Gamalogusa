@@ -1,0 +1,32 @@
+﻿/* radiantthemes-list element-two */
+
+.radiantthemes-list.element-two{
+}
+
+.radiantthemes-list.element-two > ul,
+.radiantthemes-list.element-two > ol{
+}
+
+.radiantthemes-list.element-two ul > li,
+.radiantthemes-list.element-two ol > li{
+	margin-bottom:10px;
+}
+
+.radiantthemes-list.element-two ul > li{
+	position:relative;
+	padding-left:20px;
+}
+
+.radiantthemes-list.element-two ul li:before{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+	content:"\f101";
+	font-family:'FontAwesome';
+}
+
+.radiantthemes-list.element-two > ul > li ul,
+.radiantthemes-list.element-two > ul > li ol{
+	margin-top:12px;
+}

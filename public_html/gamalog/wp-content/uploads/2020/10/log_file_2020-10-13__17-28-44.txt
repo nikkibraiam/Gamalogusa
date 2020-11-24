@@ -1,0 +1,21 @@
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://gamalogusa.com/gamalog
+Data file = /home/zqob0kuc59pf/public_html/gamalog/wp-content/uploads/2020/10/themeforest-ey9brQ1r-finacia-finance-financial-consulting-wordpress-theme-wordpress-theme-4.zip
+Widget file = /home/zqob0kuc59pf/public_html/gamalog/wp-content/uploads/2020/10/themeforest-ey9brQ1r-finacia-finance-financial-consulting-wordpress-theme-wordpress-theme-5.zip
+Customizer file = /home/zqob0kuc59pf/public_html/gamalog/wp-content/uploads/2020/10/themeforest-ey9brQ1r-finacia-finance-financial-consulting-wordpress-theme-wordpress-theme-6.zip
+Redux files:
+Gamalog -> /home/zqob0kuc59pf/public_html/gamalog/wp-content/uploads/2020/10/themeforest-ey9brQ1r-finacia-finance-financial-consulting-wordpress-theme-wordpress-theme-7.zip 
+
+
+---Importing widgets---
+Error: Widget import data could not be read. Please try a different file.
+
+---Importing Redux settings---
+The Redux option name: Gamalog, was not found in this WP site, so it was not imported!
+
+---Importing customizer settings---
+Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file.

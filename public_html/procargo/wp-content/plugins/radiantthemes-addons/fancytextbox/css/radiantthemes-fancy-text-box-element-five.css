@@ -1,0 +1,96 @@
+/* rt-fancy-text-box element-five */
+
+.rt-fancy-text-box.element-five{
+	text-align:left;
+}
+
+.rt-fancy-text-box.element-five > .holder{
+	padding:25px 30px 28px 22px;
+	background-color:#fff;
+	box-shadow:0px 0px 25px rgba(0,0,0,0.075);
+	text-align:inherit;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover{
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout{
+	position:relative;
+	padding-left:78px;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .icon{
+	position:absolute;
+	top:2px;
+	left:0;
+	z-index:1;
+	text-align:center;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .icon img{
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover > .main-layout .icon img{
+	filter:brightness(0) invert(1);
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .icon i{
+	font-size:58px;
+	color:#0c1235;
+	line-height:1;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover > .main-layout .icon i{
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .data{
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .data .title{
+	margin-bottom:10px;
+	font-weight:700;
+	font-size:18px;
+	color:#1f2d33;
+	line-height:26px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover > .main-layout .data .title{
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .data .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:16px;
+	color:#1f2d33;
+	line-height:26px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover > .main-layout .data .subtitle{
+	color:#fff;
+}
+
+.rt-fancy-text-box.element-five > .holder > .main-layout .data .content{
+	margin-bottom:12px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-five > .holder:hover > .main-layout .data .content{
+	color:#fff;
+}

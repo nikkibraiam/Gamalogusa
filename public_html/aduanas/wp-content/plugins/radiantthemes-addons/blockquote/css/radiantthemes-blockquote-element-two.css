@@ -1,0 +1,26 @@
+﻿/* radiantthemes-blockquote element-two */
+
+.radiantthemes-blockquote.element-two{
+}
+
+.radiantthemes-blockquote.element-two > blockquote{
+	font-weight:500;
+}
+
+.radiantthemes-blockquote.element-two > blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.radiantthemes-blockquote.element-two > blockquote > i.fa{
+	display:none;
+}
+
+.radiantthemes-blockquote.element-two > blockquote cite{
+	display:block;
+	margin-top:20px;
+	font-weight:400;
+	font-size:14px;
+	color:#2f2f2f;
+	line-height:25px;
+	font-style:normal;
+}

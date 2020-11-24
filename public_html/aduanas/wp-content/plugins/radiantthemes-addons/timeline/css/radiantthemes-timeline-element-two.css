@@ -1,0 +1,240 @@
+/* radiantthemes-timeline element-two */
+
+.radiantthemes-timeline.element-two{
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item{
+    position:relative;
+    padding-top:60px;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line{
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:50%;
+    z-index:0;
+    width:2px;
+    margin-left:-1px;
+    background-color:#cacdd4;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line:before,
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line:after{
+    position:absolute;
+    display:block;
+    content:" ";
+    width:10px;
+    height:10px;
+    margin-left:-4px;
+    border-radius:50%;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line:before{
+    top:0;
+    background-color:#cacdd4;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line:after{
+    bottom:0;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:not(:first-child) > .radiantthemes-timeline-item-line:before,
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:not(:last-child) > .radiantthemes-timeline-item-line:after{
+    display:none;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-dot{
+    display:block;
+    position:absolute;
+    top:70px;
+    left:50%;
+    z-index:1;
+    content:" ";
+    width:20px;
+    height:20px;
+    margin-left:-10px;
+    background-color:#fff;
+    border-width:5px;
+    border-style:solid;
+    border-radius:50%;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .row{
+    margin-left:-35px;
+    margin-right:-35px;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .row > [class*='col-']{
+    padding-left:35px;
+    padding-right:35px;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) > .row > [class*='col-']:first-child{
+    float:right;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) > .row > [class*='col-']:last-child{
+    float:left;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp{
+    margin-bottom:30px;
+    padding-left:10px;
+    padding-right:10px;
+    text-align:right;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp{
+    text-align:left;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    padding:7px 15px 7px 15px;
+    background-color:#cacdd4;
+    font-weight:500;
+    font-size:15px;
+    color:#030712;
+    line-height:28px;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder:after{
+    position:absolute;
+    top:50%;
+    left:100%;
+    margin-top:-10px;
+    width:0;
+    height:0;
+    content:" ";
+    border:solid transparent;
+    border-color:rgba(0,0,0,0);
+    border-left-color:#cacdd4;
+    border-width:10px;
+    pointer-events:none;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp > .holder:after{
+    right:100%;
+    left:auto;
+    border-right-color:#cacdd4;
+    border-left-color:transparent;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder strong{
+    font-weight:inherit;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-pic{
+    margin-bottom:22px;
+    text-align:right;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-pic{
+    text-align:left;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data{
+    text-align:left;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-data{
+    text-align:right;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data > *:last-child{
+    margin-bottom:0 !important;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data .title{
+    margin-bottom:10px;
+    font-weight:600;
+    font-size:20px;
+    color:#171c30;
+    line-height:30px;
+}
+
+.radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data p{
+    margin-bottom:20px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-dot{
+        display:none;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-data{
+        text-align:center;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder:after,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp > .holder:after{
+        display:none;
+    }
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-dot{
+        display:none;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-data{
+        text-align:center;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder:after,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp > .holder:after{
+        display:none;
+    }
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-line,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item > .radiantthemes-timeline-item-dot{
+        display:none;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-data,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-data{
+        text-align:center;
+    }
+
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item .radiantthemes-timeline-item-datestamp > .holder:after,
+    .radiantthemes-timeline.element-two > .radiantthemes-timeline-item:nth-child(even) .radiantthemes-timeline-item-datestamp > .holder:after{
+        display:none;
+    }
+
+}

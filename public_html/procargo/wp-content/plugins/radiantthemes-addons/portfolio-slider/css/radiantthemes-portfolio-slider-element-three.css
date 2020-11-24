@@ -1,0 +1,124 @@
+﻿/* rt-portfolio-slider element-three */
+
+.rt-portfolio-slider.element-three{
+	width:auto;
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item{
+	padding-left:15px;
+	padding-right:15px;
+	text-align:center;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder > .pic{
+	position:relative;
+	overflow:hidden;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder > .pic > img{
+	width:100%;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder > .pic > .holder{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center center no-repeat;
+	background-size:cover;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder:hover > .pic > .holder{
+	transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+
+.rt-portfolio-slider.element-three .rt-portfolio-slider-item > .holder > .overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	width:auto;
+	height:auto;
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-prev,
+.rt-portfolio-slider.element-three > .owl-nav > .owl-next{
+	position:absolute;
+	top:50%;
+	z-index:1;
+	font-size:0;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-prev{
+	left:-20px;
+}
+
+.rt-portfolio-slider.element-three:hover > .owl-nav > .owl-prev{
+	left:20px;
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-next{
+	right:-20px;
+}
+
+.rt-portfolio-slider.element-three:hover > .owl-nav > .owl-next{
+	right:20px;
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-prev:before,
+.rt-portfolio-slider.element-three > .owl-nav > .owl-next:before{
+	font-family:"FontAwesome";
+	font-size:30px;
+	color:#fff;
+	line-height:36px;
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-prev:before{
+	content:"\f104";
+}
+
+.rt-portfolio-slider.element-three > .owl-nav > .owl-next:before{
+	content:"\f105";
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

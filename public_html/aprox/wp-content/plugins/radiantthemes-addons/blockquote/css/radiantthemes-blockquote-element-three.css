@@ -1,0 +1,33 @@
+﻿/* radiantthemes-blockquote element-three */
+
+.radiantthemes-blockquote.element-three{
+}
+
+.radiantthemes-blockquote.element-three > blockquote{
+	position:relative;
+	padding-left:65px;
+}
+
+.radiantthemes-blockquote.element-three > blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.radiantthemes-blockquote.element-three > blockquote > i.fa{
+	position:absolute;
+	top:4px;
+	left:0;
+	z-index:1;
+	font-size:45px;
+	color:#5d5e64;
+	line-height:45px;
+}
+
+.radiantthemes-blockquote.element-three > blockquote cite{
+	display:block;
+	margin-top:20px;
+	font-weight:500;
+	font-size:13px;
+	color:#2f2f2f;
+	line-height:25px;
+	font-style:normal;
+}

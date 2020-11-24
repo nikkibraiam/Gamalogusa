@@ -1,0 +1,61 @@
+﻿/* radiantthemes-accordion element-one */
+
+.radiantthemes-accordion.element-one{
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item{
+	border-bottom:1px #d0d0d0 solid;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item:last-child,
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item:only-child{
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-title{
+	position:relative;
+	padding-top:22px;
+	padding-right:20px;
+	padding-bottom:24px;
+	cursor:pointer;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon{
+	position:absolute;
+	top:50%;
+	right:0;
+	z-index:1;
+	transform:translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon i.main-icon:before{
+	font-family:"FontAwesome";
+	content:"\f067";
+	font-size:17px;
+	line-height:1;
+	font-style:normal;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item.radiantthemes-active > .radiantthemes-accordion-item-title > .radiantthemes-accordion-item-title-icon i.main-icon:before{
+	content:"\f068";
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-title > .panel-title{
+	margin:0;
+	font-weight:600;
+	font-size:17px;
+	color:#1f2d33;
+	line-height:26px;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-body{
+	padding-bottom:25px;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-body > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.radiantthemes-accordion.element-one .radiantthemes-accordion-item > .radiantthemes-accordion-item-body p{
+	margin-bottom:17px;
+}

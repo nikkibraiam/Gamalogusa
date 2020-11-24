@@ -1,0 +1,23 @@
+﻿/* radiantthemes-dropcaps element-six */
+
+.radiantthemes-dropcaps.element-six{
+}
+
+.radiantthemes-dropcaps.element-six > .holder{
+}
+
+.radiantthemes-dropcaps.element-six > .holder > .radiantthemes-dropcap-letter{
+	width:70px;
+	height:70px;
+	float:left;
+	margin-top:7px;
+	margin-right:25px;
+	margin-bottom:10px;
+	border:1px #acadb1 solid;
+	border-radius:5px;
+	text-align:center;
+	font-weight:700;
+	font-size:50px;
+	color:#474849;
+	line-height:70px;
+}

@@ -1,0 +1,183 @@
+﻿/* rt-pricing-table element-one */
+
+.rt-pricing-table.element-one{
+}
+
+.rt-pricing-table.element-one > .holder{
+	padding:35px 20px 40px 20px;
+	background-color:#fff;
+	border:1px #efefef solid;
+	text-align:center;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-one.spotlight > .holder,
+.rt-pricing-table.element-one:hover > .holder{
+	position:relative;
+	border-color:#fff;
+	box-shadow:0px 0px 30px rgba(5,6,6,0.1);
+}
+
+.rt-pricing-table.element-one > .holder > .heading{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-one > .holder > .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-one > .holder > .heading .title{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:22px;
+	color:#1f2d33;
+	line-height:30px;
+}
+
+.rt-pricing-table.element-one > .holder > .heading .subtitle{
+	margin-bottom:10px;
+	font-weight:400;
+	font-size:14px;
+	line-height:23px;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing{
+	margin-bottom:30px;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing .price{
+	margin-bottom:30px;
+	font-weight:300;
+	font-size:90px;
+	line-height:0.75;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing .price sup{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:11px;
+	margin-right:8px;
+	font-weight:400;
+	font-size:24px;
+	color:#9a9a9a;
+	line-height:1;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing .price sub{
+	display:inline-block;
+	vertical-align:bottom;
+	margin-bottom:4px;
+	margin-left:-7px;
+	font-weight:400;
+	font-size:12px;
+	color:#1f2d33;
+	line-height:1;
+}
+
+.rt-pricing-table.element-one > .holder > .pricing .tagline{
+	max-width:220px;
+	margin:0 auto 10px auto;
+	font-weight:400;
+	font-size:13px;
+	color:#898989;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-one > .holder > .list{
+	margin-bottom:32px;
+}
+
+.rt-pricing-table.element-one > .holder > .list > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-one > .holder > .list ul{
+	max-width:200px;
+	margin:0 auto;
+}
+
+.rt-pricing-table.element-one > .holder > .list ul li{
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px #f3f3f3 solid;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#1f2d33;
+	line-height:25px;
+}
+
+.rt-pricing-table.element-one > .holder > .list ul li:last-child,
+.rt-pricing-table.element-one > .holder > .list ul li:only-child{
+	margin-bottom:0;
+	padding-bottom:0;
+	border-bottom:none;
+}
+
+.rt-pricing-table.element-one > .holder > .more{
+}
+
+.rt-pricing-table.element-one > .holder > .more > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-pricing-table.element-one > .holder > .more .btn{
+	margin-bottom:15px;
+	padding:13px 37px 13px 37px;
+	background-color:transparent;
+	border-width:1px;
+	border-style:solid;
+	border-radius:35px;
+	text-transform:uppercase;
+	font-weight:500;
+	font-size:13px;
+	line-height:22px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-pricing-table.element-one.spotlight > .holder > .more .btn,
+.rt-pricing-table.element-one:hover > .holder > .more .btn{
+	color:#fff !important;
+}
+
+.rt-pricing-table.element-one > .holder > .more .btn:hover{
+	box-shadow:0px 4px 20px -5px rgba(0,0,0,0.5);
+	transform:translateY(-5px);
+	-webkit-transform:translateY(-5px);
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+
+	.rt-pricing-table.element-one > .holder > .pricing .price sub{
+		display:block;
+		margin-top:15px;
+		margin-left:0;
+	}
+
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

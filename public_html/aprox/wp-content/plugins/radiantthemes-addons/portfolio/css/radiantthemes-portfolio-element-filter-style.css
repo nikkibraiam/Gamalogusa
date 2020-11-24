@@ -1,0 +1,77 @@
+﻿/* RT Portfolio Box Filter */
+
+.rt-portfolio-box-filter[class*='filter-style-']{
+	font-size:0;
+}
+
+/* Filter Style One */
+
+.rt-portfolio-box-filter.filter-style-one{
+	margin-bottom:20px;
+	font-size:0;
+}
+
+.rt-portfolio-box-filter.filter-style-one > button{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:30px;
+	margin-bottom:10px;
+	padding:0;
+	background-color:initial;
+	border:none;
+	font-weight:400;
+	font-size:15px;
+	color:#302f35;
+	line-height:26px;
+}
+
+.rt-portfolio-box-filter.filter-style-one > button.current-menu-item{
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	/* Filter Style One */
+
+	.rt-portfolio-box-filter.filter-style-one > button{
+		width:100%;
+		margin-right:0;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	/* Filter Style One */
+
+	.rt-portfolio-box-filter.filter-style-one > button{
+		width:100%;
+		margin-right:0;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	/* Filter Style One */
+
+	.rt-portfolio-box-filter.filter-style-one > button{
+		width:100%;
+		margin-right:0;
+	}
+
+}

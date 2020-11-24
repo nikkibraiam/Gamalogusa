@@ -1,0 +1,301 @@
+#page,
+.wraper_footer{
+	margin-left:265px;
+}
+
+#page .container.page-container,
+.wraper_footer > div > .container{
+	width:100%;
+	max-width:1200px;
+}
+
+/* wraper_header */
+
+.wraper_header{
+	direction:initial;
+}
+
+/* wraper_header_responsive */
+
+.wraper_header_responsive{
+	position:fixed;
+	top:0;
+    left:0;
+	z-index:9999999;
+	background-color:#070e19;
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+}
+
+.wraper_header_responsive > div[class*='responsive-sidemenu-']{
+	width:45px;
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	text-align:center;
+}
+
+body:not(.sidemenu-open) .responsive-sidemenu-open,
+body.sidemenu-open .responsive-sidemenu-close{
+	display:block;
+}
+
+body.sidemenu-open .responsive-sidemenu-open,
+body:not(.sidemenu-open) .responsive-sidemenu-close{
+	display:none;
+}
+
+.wraper_header_responsive > div[class*='responsive-sidemenu-'] i{
+	font-size:18px;
+	color:#fff;
+	line-height:45px;
+}
+
+/* wraper_header_main */
+
+.wraper_header_main{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	z-index:999;
+    width:265px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding:35px 30px 30px 30px;
+}
+
+.header_main{
+}
+
+.header_main .brand-logo{
+    margin-bottom:70px;
+    text-align:left;
+    font-size:0;
+}
+
+.header_main .brand-logo img{
+	max-width:170px;
+}
+
+/* NAV */
+
+.nav{
+	margin-bottom:60px;
+}
+
+.nav > [class*='menu-'] > ul.menu{
+}
+
+.nav > [class*='menu-'] > ul.menu > li,
+.nav > [class*='menu-'] > ul.menu > li > ul > li,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li{
+	position:relative;
+	width:100%;
+	margin-bottom:13px;
+}
+
+.nav > [class*='menu-'] > ul.menu > li:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li:before{
+	position:absolute;
+	top:12px;
+	left:20px;
+	z-index:0;
+	content:" ";
+	width:0;
+	height:12px;
+	background-color:rgba(255,255,255,0.2) !important;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.nav > [class*='menu-'] > ul.menu > li:hover:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li:hover:before,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li:hover:before{
+	left:0;
+	width:75px;
+}
+
+.nav > [class*='menu-'] > ul.menu > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li a{
+	position:relative;
+	display:block;
+	color:inherit;
+}
+
+.nav > [class*='menu-'] > ul.menu > li.current-menu-item > a,
+.nav > [class*='menu-'] > ul.menu > li.current-menu-parent > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li.current-menu-item > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li.current-menu-parent > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.current-menu-item > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li.current-menu-parent > a{
+}
+
+.nav > [class*='menu-'] > ul.menu > li > ul,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul{
+	display:none;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+.nav > [class*='menu-'] > ul.menu > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > a,
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li a{
+	padding-left:25px;
+	font-weight:400;
+	font-size:13px;
+	line-height:22px;
+	opacity:0.85;
+}
+
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > a{
+	padding-left:35px;
+}
+
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > a{
+	padding-left:45px;
+}
+
+.nav > [class*='menu-'] > ul.menu > li > ul > li > ul > li > ul > li > ul li a{
+	padding-left:55px;
+}
+
+/* SIDR */
+
+#sidemenu.sidr.left{
+    left:-100%;
+}
+
+#sidemenu.sidr{
+    width:100%;
+}
+
+.header_main .header-copyright{
+	margin-bottom:15px;
+}
+
+.header_main .header-copyright > *:last-child{
+	margin-bottom:0 !!important;
+}
+
+.header_main .header-copyright p{
+	margin-bottom:15px;
+	font-weight:400;
+	font-size:14px;
+	color:#d0d0d0;
+	line-height:24px;
+}
+
+.header_main .header-social ul.social{
+	font-size:0;
+}
+
+.header_main .header-social ul.social li{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:12px;
+	margin-bottom:6px;
+}
+
+.header_main .header-social ul.social li a{
+	display:block;
+	width:30px;
+	height:30px;
+	background-color:transparent;
+	border:1px rgba(255,255,255,0.2) solid;
+	border-radius:50%;
+	text-align:center;
+	font-size:12px;
+	color:#fff;
+	line-height:30px;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+
+	#page .container.page-container,
+	.wraper_footer > div > .container{
+		max-width:1030px;
+	}
+
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+
+	#page .container.page-container,
+	.wraper_footer > div > .container{
+		max-width:980px;
+	}
+
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+
+	#page,
+	.wraper_footer{
+		margin-left:0;
+	}
+
+	/* wraper_header_main */
+
+	.wraper_header_main{
+		position:static;
+	    width:100%;
+	    padding:45px 40px 40px 40px;
+	}
+
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+
+	#page,
+	.wraper_footer{
+		margin-left:0;
+	}
+
+	/* wraper_header_main */
+
+	.wraper_header_main{
+		position:static;
+	    width:100%;
+	    padding:45px 40px 40px 40px;
+	}
+
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+
+	#page,
+	.wraper_footer{
+		margin-left:0;
+	}
+
+	/* wraper_header_main */
+
+	.wraper_header_main{
+		position:static;
+	    width:100%;
+	    padding:45px 40px 40px 40px;
+	}
+
+}

@@ -1,0 +1,78 @@
+/*--------------------------------------------------------------
+# Inner Banner
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Inner Banner Main
+--------------------------------------------------------------*/
+
+/* wraper_inner_banner */
+
+.wraper_inner_banner{
+    width:100%;
+    height:auto;
+    background-color:#252525;
+}
+
+/* wraper_inner_banner_main */
+
+.wraper_inner_banner_main{
+    width:100%;
+	height:auto;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+}
+
+.wraper_inner_banner_main > .container{
+}
+
+.inner_banner_main{
+}
+
+.inner_banner_main > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.inner_banner_main .title{
+	margin-bottom:6px;
+}
+
+.inner_banner_main .subtitle{
+	margin-bottom:15px;
+}
+
+/*--------------------------------------------------------------
+# Inner Banner Breadcrumb
+--------------------------------------------------------------*/
+
+.wraper_inner_banner_breadcrumb{
+    width:100%;
+    height:auto;
+}
+
+.wraper_inner_banner_breadcrumb > .container{
+}
+
+.inner_banner_breadcrumb{
+}
+
+.inner_banner_breadcrumb > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.inner_banner_breadcrumb #crumbs{
+    width:auto;
+    height:auto;
+}
+
+.inner_banner_breadcrumb #crumbs .gap{
+	display:inline-block;
+	vertical-align:top;
+	margin-left:6px;
+	margin-right:6px;
+	font-size:50%;
+}
+
+.inner_banner_breadcrumb #crumbs a{
+	color:inherit;
+}

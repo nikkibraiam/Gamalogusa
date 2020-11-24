@@ -1,0 +1,30 @@
+﻿/* radiantthemes-blockquote element-one */
+
+.radiantthemes-blockquote.element-one{
+}
+
+.radiantthemes-blockquote.element-one > blockquote{
+	text-align:center;
+}
+
+.radiantthemes-blockquote.element-one > blockquote > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.radiantthemes-blockquote.element-one > blockquote > i.fa{
+	display:block;
+	margin-bottom:20px;
+	font-size:80px;
+	color:#e7e9ef;
+	line-height:80px;
+}
+
+.radiantthemes-blockquote.element-one > blockquote cite{
+	display:block;
+	margin-top:20px;
+	font-weight:500;
+	font-size:13px;
+	color:#2f2f2f;
+	line-height:25px;
+	font-style:normal;
+}

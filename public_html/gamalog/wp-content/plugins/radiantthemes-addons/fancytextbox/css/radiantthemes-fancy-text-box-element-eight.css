@@ -1,0 +1,105 @@
+/* rt-fancy-text-box element-eight */
+
+.rt-fancy-text-box.element-eight{
+	text-align:left;
+}
+
+.rt-fancy-text-box.element-eight > .holder{
+	text-align:inherit;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover{
+	box-shadow:0px 0px 35px rgba(0,0,0,0.12);
+}
+
+.rt-fancy-text-box.element-eight > .holder > .pic{
+}
+
+.rt-fancy-text-box.element-eight > .holder > .pic img{
+	width:100%;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .icon{
+	margin-bottom:70px;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .icon i{
+	font-size:58px;
+	color:#0c1235;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data{
+	padding:22px 30px 25px 30px;
+	background-color:#fafafa;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-eight > .holder:hover > .data{
+	background-color:#fff;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data .title{
+	margin-bottom:8px;
+	font-weight:600;
+	font-size:18px;
+	color:#131320;
+	line-height:26px;
+	letter-spacing:0;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:15px;
+	color:#131320;
+	line-height:26px;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data .content{
+	margin-bottom:10px;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data .btn{
+	padding:0;
+	border:none;
+	border-radius:0;
+	text-transform:uppercase;
+	font-size:12px;
+	color:inherit;
+}
+
+.rt-fancy-text-box.element-eight > .holder > .data .btn i{
+	margin-left:10px;
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

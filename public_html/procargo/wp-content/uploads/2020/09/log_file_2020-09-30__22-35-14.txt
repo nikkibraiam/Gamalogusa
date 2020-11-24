@@ -1,0 +1,419 @@
+
+---Downloaded files---
+The import files for: Demo One were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://gamalogusa.com/procargo
+Data file = /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/content.xml
+Widget file = /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/widgets.wie
+Customizer file = not defined!
+Redux files:
+finacia_theme_option -> /home/zqob0kuc59pf/public_html/procargo/wp-content/themes/finacia/inc/import/redux.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Widgets in Menu : 
+
+Menú de Navegación - Masonry Style - Widget already exists
+Menú de Navegación - Overlay Style - Widget already exists
+
+Sidebar : 
+
+Buscar - No Title - Widget already exists
+Categorías - Categories - Widget already exists
+Entradas recientes - Recent Posts - Widget already exists
+Archivos - Archives - Widget already exists
+Nube de etiquetas - Tags - Widget already exists
+
+Product | Sidebar : 
+
+Filter Products by Price - Filter by price - Widget already exists
+Products - Featured Products - Widget already exists
+Product Categories - Product categories - Widget already exists
+Products - On-sale Products - Widget already exists
+
+Footer | #1 : 
+
+Imagen - No Title - Imported
+RadiantThemes Social - No Title - Widget already exists
+
+Footer | #2 : 
+
+Menú de Navegación - Company - Widget already exists
+
+Footer | #3 : 
+
+Menú de Navegación -   - Widget already exists
+
+Footer | #4 : 
+
+RadiantThemes Contact Box - No Title - Widget already exists
+HTML personalizado - Subscribe Now - Widget already exists
+
+Hamburger | Sidebar : 
+
+Imagen - No Title - Imported
+Texto - No Title - Widget already exists
+RadiantThemes Recent Posts With Thumbnail Widget - No Title - Widget already exists
+RadiantThemes Contact Box - No Title - Widget already exists
+RadiantThemes Social - No Title - Widget already exists
+
+
+
+---Importing Redux settings---
+Redux settings import for: finacia_theme_option finished successfully!
+
+---pt-ocdi/after_import---
+

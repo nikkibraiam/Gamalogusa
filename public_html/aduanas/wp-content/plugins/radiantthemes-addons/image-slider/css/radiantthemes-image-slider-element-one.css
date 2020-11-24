@@ -1,0 +1,185 @@
+﻿/* rt-image-slider element-one */
+
+.rt-image-slider.element-one{
+	position:relative;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item{
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder{
+	position:relative;
+	text-align:center;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > img{
+	width:100%;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .pic{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:1;
+	background:center center no-repeat;
+	background-size:cover;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:2;
+	padding:20px;
+	background-color:rgba(19,19,32,0.9);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease-in-out;
+	-webkit-transition:all 0.3s ease-in-out;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder:hover > .data{
+	opacity:1;
+	visibility:visible;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data > .table{
+	display:table;
+	table-layout:fixed;
+	width:100%;
+	height:100%;
+	margin:0;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data > .table > .table-cell{
+	display:table-cell;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data > .table > .table-cell > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data .icon{
+	margin-bottom:20px;
+	opacity:0;
+	visibility:hidden;
+	transform:translateY(20px);
+	-webkit-transform:translateY(20px);
+	transition:all 0.7s ease-in-out;
+	-webkit-transition:all 0.7s ease-in-out;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data .icon i{
+	font-size:45px;
+	color:#fff;
+	line-height:1;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data .title{
+	margin-bottom:5px;
+	font-weight:600;
+	font-size:20px;
+	color:#fff;
+	line-height:30px;
+	opacity:0;
+	visibility:hidden;
+	transform:translateY(20px);
+	-webkit-transform:translateY(20px);
+	transition:all 1s ease-in-out;
+	-webkit-transition:all 1s ease-in-out;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .data .description{
+	margin-bottom:20px;
+	color:#fff;
+	opacity:0;
+	visibility:hidden;
+	transform:translateY(20px);
+	-webkit-transform:translateY(20px);
+	transition:all 1.3s ease-in-out;
+	-webkit-transition:all 1.3s ease-in-out;
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder:hover > .data .icon,
+.rt-image-slider.element-one .rt-image-slider-item > .holder:hover > .data .title,
+.rt-image-slider.element-one .rt-image-slider-item > .holder:hover > .data .description{
+	opacity:1;
+	visibility:visible;
+	transform:translateY(0);
+	-webkit-transform:translateY(0);
+}
+
+.rt-image-slider.element-one .rt-image-slider-item > .holder > .overlay{
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:3;
+	content:" ";
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-prev,
+.rt-image-slider.element-one > .owl-nav > .owl-next{
+	position:absolute;
+	top:50%;
+	z-index:1;
+	font-size:0;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-prev{
+	left:20px;
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-next{
+	right:20px;
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-prev:before,
+.rt-image-slider.element-one > .owl-nav > .owl-next:before{
+	font-family:"FontAwesome";
+	font-size:30px;
+	color:#fff;
+	line-height:36px;
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-prev:before{
+	content:"\f104";
+}
+
+.rt-image-slider.element-one > .owl-nav > .owl-next:before{
+	content:"\f105";
+}
+
+/* LARGE DESKTOP PART */
+@media screen and (min-width:1200px){
+}
+
+/* DESKTOP PART */
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+/* TABLET LANDSCAPE PART */
+@media screen and (min-width:768px) and (max-width:991px){
+}
+
+/* TABLET PROTRAIT PART */
+@media screen and (min-width:480px) and (max-width:767px){
+}
+
+/* SMART PHONE LANDSCAPE PART */
+@media screen and (min-width:321px) and (max-width:479px){
+}
+
+/* SMART PHONE PROTRAIT PART */
+@media screen and (max-width:320px){
+}

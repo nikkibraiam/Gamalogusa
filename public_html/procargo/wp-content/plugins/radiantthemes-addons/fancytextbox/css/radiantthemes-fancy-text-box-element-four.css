@@ -1,0 +1,77 @@
+/* rt-fancy-text-box element-four */
+
+.rt-fancy-text-box.element-four{
+	text-align:center;
+}
+
+.rt-fancy-text-box.element-four > .holder{
+	padding-left:30px;
+	padding-right:30px;
+	text-align:inherit;
+}
+
+.rt-fancy-text-box.element-four > .holder > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-four > .holder .icon{
+	min-height:76px;
+	margin-bottom:25px;
+	background-image:url(../images/Style-Four-Cloud-Background-Image.webp), url(../images/Style-Four-Cloud-Background-Image.jpf), url(../images/Style-Four-Cloud-Background-Image.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.rt-fancy-text-box.element-four > .holder .icon > .icon-holder{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.rt-fancy-text-box.element-four > .holder .icon > .icon-holder img{
+}
+
+.rt-fancy-text-box.element-four > .holder .icon > .icon-holder i{
+	font-size:60px;
+	color:#0c1235;
+	line-height:1;
+}
+
+.rt-fancy-text-box.element-four > .holder .heading{
+	margin-bottom:18px;
+}
+
+.rt-fancy-text-box.element-four > .holder .heading > *:last-child{
+	margin-bottom:0 !important;
+}
+
+.rt-fancy-text-box.element-four > .holder .heading .title{
+	display:inline-block;
+	vertical-align:top;
+	max-width:230px;
+	margin-bottom:7px;
+	font-weight:700;
+	font-size:17px;
+	color:#0c1235;
+	line-height:26px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+}
+
+.rt-fancy-text-box.element-four > .holder:hover .heading .title{
+}
+
+.rt-fancy-text-box.element-four > .holder .heading .subtitle{
+	margin-bottom:10px;
+	font-weight:500;
+	font-size:16px;
+	color:#0c1235;
+	line-height:25px;
+}
+
+.rt-fancy-text-box.element-four > .holder .content{
+	margin-bottom:20px;
+}
+
+.rt-fancy-text-box.element-four > .holder .content > *:last-child{
+	margin-bottom:0 !important;
+}

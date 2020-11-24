@@ -1,0 +1,35 @@
+﻿/* radiantthemes-contact-box element-two */
+
+.radiantthemes-contact-box.element-two{
+}
+
+.radiantthemes-contact-box.element-two > ul{
+}
+
+.radiantthemes-contact-box.element-two ul li{
+	position:relative;
+	margin-bottom:12px;
+	padding-left:27px;
+}
+
+.radiantthemes-contact-box.element-two ul li:last-child{
+	margin-bottom:0;
+}
+
+.radiantthemes-contact-box.element-two ul li i{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:1;
+	width:15px;
+    text-align:center;
+    line-height:inherit;
+}
+
+.radiantthemes-contact-box.element-two ul li.address i{
+	font-size:18px;
+}
+
+.radiantthemes-contact-box.element-two > ul li ul{
+	margin-top:12px;
+}
