@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/zqob0kuc59pf/repositories/Gamalogusa/
     - /bin/cp -R aduanas $DEPLOYPATH
+    - /bin/cp -R aprox $DEPLOYPATH
